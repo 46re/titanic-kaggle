@@ -31,7 +31,7 @@ URL:https://www.kaggle.com/c/titanic
 17セル："Embarked"の出現個数の描画  
 　　　  "Embarked"の欠損値を最も多い"S"で補完する  
 18セル：新たな特徴量"hasCabin"の作成  
-        →"Cabin"に関する情報が有るデータは"1","Cabin"に関する情報が無いデータは"0"とする  
+　　　　 →"Cabin"に関する情報が有るデータは"1","Cabin"に関する情報が無いデータは"0"とする  
 19セル："honofics"と"Survived"の関係図の描画  
 20セル：新たな特徴量"SameTicketNumber"の作成  
         →"Ticket"の同一チケット枚数  
