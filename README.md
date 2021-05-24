@@ -1,7 +1,7 @@
 # titanic-kaggle
 
 データ分析コンペティション"Kaggle"における有名コンペ"Titanic - Machine Learning from Disaster"にて作成したコードです。
-URL:https://www.kaggle.com/c/titanic
+URL:https://www.kaggle.com/c/titanic    
 
 # 概要：
 機会学習手法には、色々試した中で精度が最も高かったランダムフォレストを採用しました。  
