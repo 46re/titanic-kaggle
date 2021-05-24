@@ -1,8 +1,8 @@
 # titanic-kaggle
 
 データ分析コンペティション"Kaggle"における有名コンペ"Titanic - Machine Learning from Disaster"にて作成したコードです。
-URL:https://www.kaggle.com/c/titanic    
-
+URL:https://www.kaggle.com/c/titanic          
+  
 ##### 使用ファイル  
 titanic.ipynb：今回作成したコード  
 data/train.csv：訓練データセット  
