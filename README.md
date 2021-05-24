@@ -35,7 +35,7 @@ URL:https://www.kaggle.com/c/titanic
 19セル："honofics"と"Survived"の関係図の描画  
 20セル：新たな特徴量"SameTicketNumber"の作成  
         →"Ticket"の同一チケット枚数  
-        "SameTicketScale"と"Survived"の関係図の描画  
+         "SameTicketScale"と"Survived"の関係図の描画  
 21セル："SameTicketNumber"と"Survived"の関係が線形変化では無いので、スケール処理を行う  
   　　  新たな特徴量"SameTicketScale"の作成      
         →1枚/2-4枚/5枚-のスケールで分ける  
