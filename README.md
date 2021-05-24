@@ -3,12 +3,12 @@
 データ分析コンペティション"Kaggle"における有名コンペ"Titanic - Machine Learning from Disaster"にて作成したコードです。
 URL:https://www.kaggle.com/c/titanic    
 
-#### ファイル
+##### 使用ファイル  
 titanic.ipynb：今回作成したコード  
-data/train.csv：訓練データセット
-data/test.csv：テストデータセット
-data/gender_submission.csv：提出ファイル形式
-data/my_submission.csv：提出ファイル
+data/train.csv：訓練データセット  
+data/test.csv：テストデータセット  
+data/gender_submission.csv：提出ファイル形式  
+data/my_submission.csv：提出ファイル  
 
 # データ解析手法/概要：
 機会学習手法には、色々試した中で精度が最も高かったランダムフォレストを採用しました。  
