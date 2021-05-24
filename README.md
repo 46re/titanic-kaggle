@@ -12,12 +12,12 @@ URL:https://www.kaggle.com/c/titanic
 ### 以下、コード内容について、各セル毎に解説します。
 1セル：ライブラリの読み込み  
 2セル：訓練データ、テストデータの読み込み  
- 　　　2つを結合したデータの作成  
+　　　　2つを結合したデータの作成  
 3セル：データの表示  
 4セル：欠損値の確認  
 5セル："Name"を敬称毎(Master,Mr,Miss,Mrs)に分類する関数@name_classifier(names)の作成  
 6セル：新たな特徴量"honofics"の作成  
-　　　 →"Name"を関数@name_classifier(names)に基づいて分類した敬称が入る  
+　　　→"Name"を関数@name_classifier(names)に基づいて分類した敬称が入る  
 7セル："honofics"と"Survived"の関係の描画  
 8セル："honofics"毎の平均年齢の算出  
 9セル："Age"が欠損しているデータに関して、敬称毎の平均年齢で補完する  
@@ -34,18 +34,18 @@ URL:https://www.kaggle.com/c/titanic
 　　　　 →"Cabin"に関する情報が有るデータは"1","Cabin"に関する情報が無いデータは"0"とする  
 19セル："honofics"と"Survived"の関係図の描画  
 20セル：新たな特徴量"SameTicketNumber"の作成  
-        →"Ticket"の同一チケット枚数  
-         "SameTicketScale"と"Survived"の関係図の描画  
+　　　　→"Ticket"の同一チケット枚数  
+　　　　 "SameTicketScale"と"Survived"の関係図の描画  
 21セル："SameTicketNumber"と"Survived"の関係が線形変化では無いので、スケール処理を行う  
-  　　  新たな特徴量"SameTicketScale"の作成      
-        →1枚/2-4枚/5枚-のスケールで分ける  
+　　　　新たな特徴量"SameTicketScale"の作成      
+　　　　→1枚/2-4枚/5枚-のスケールで分ける  
 22セル："SameTicketScale"と"Survived"の関係図の描画  
 23セル：新たな特徴量"FamilySize"の作成  
-  　　　→"FamilySize"=1+"SibSp"+"Parch"  
-     　　"FamilySize"と"Survived"の関係図の描画  
+　　　　→"FamilySize"=1+"SibSp"+"Parch"  
+　　　　"FamilySize"と"Survived"の関係図の描画  
 24セル："FamilySize"と"Survived"の関係が線形変化では無いので、スケール処理を行う  
-  　　　新たな特徴量"FamilyScale"の作成  
-  　　　→1人/2-4人/5人-のスケールで分ける  
+　　　　新たな特徴量"FamilyScale"の作成  
+　　　　→1人/2-4人/5人-のスケールで分ける  
 25セル："FamilyScale"と"Survived"の関係図の描画  
 26セル：データの表示  
 27セル：分類に必要な特徴量の指定  
@@ -56,6 +56,6 @@ URL:https://www.kaggle.com/c/titanic
 32セル：ホールドアウト法によるデータ分割  
 33セル：ランダムフォレストによる学習/予測  
 　　　　既知データセットに対する分類精度：0.875  
-  　　　未知データセットに対する分類精度：0.843  
+　　　　未知データセットに対する分類精度：0.843  
 34セル：テストデータセットに対する予測  
 35セル：提出ファイルの作成  
