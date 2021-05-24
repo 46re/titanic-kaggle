@@ -34,11 +34,11 @@ URL:https://www.kaggle.com/c/titanic
 　　　  →"Cabin"に関する情報が有るデータは"1","Cabin"に関する情報が無いデータは"0"とする  
 19セル："honofics"と"Survived"の関係図の描画  
 20セル：新たな特徴量"SameTicketNumber"の作成  
-  　　　→"Ticket"の同一チケット枚数  
-     　 "SameTicketScale"と"Survived"の関係図の描画  
+        →"Ticket"の同一チケット枚数  
+        "SameTicketScale"と"Survived"の関係図の描画  
 21セル："SameTicketNumber"と"Survived"の関係が線形変化では無いので、スケール処理を行う  
-  　　　新たな特徴量"SameTicketScale"の作成  
-  　　　→1枚/2-4枚/5枚-のスケールで分ける  
+  　　  新たな特徴量"SameTicketScale"の作成      
+        →1枚/2-4枚/5枚-のスケールで分ける  
 22セル："SameTicketScale"と"Survived"の関係図の描画  
 23セル：新たな特徴量"FamilySize"の作成  
   　　　→"FamilySize"=1+"SibSp"+"Parch"  
