@@ -1,6 +1,6 @@
 # titanic-kaggle
 
-データ分析コンペティション"Kaggle"における有名コンペ"Titanic - Machine Learning from Disaster"にて作成したコードです。
+データ分析コンペティション"Kaggle"における有名コンペ"Titanic - Machine Learning from Disaster"にて作成したコードです。  
 URL:https://www.kaggle.com/c/titanic          
   
 ##### 使用ファイル  
